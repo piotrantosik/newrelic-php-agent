@@ -61,7 +61,7 @@ RUN apt-get update && apt-get install -y \
   strace \
   python-dev \
   python-setuptools \
-  python-yaml \
+  python3-yaml \
   sqlite3 \
   libsqlite3-dev \
   openssl \

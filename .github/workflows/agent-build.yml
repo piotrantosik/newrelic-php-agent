@@ -17,7 +17,14 @@ on:
   #
   push:
     branches: 
-      - 'sf5'
+      - main
+      - 'php8'
+      - 'dev'
+  pull_request:
+    branches:
+      - main
+      - 'php8'
+      - 'dev'
 
 jobs:
   agent_pr:
